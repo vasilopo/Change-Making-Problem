@@ -1,0 +1,6 @@
+experiment: 'Minimum Coin Problem'
+
+inputs:
+  change: 1011
+  available_coins: [2, 5, 50, 500, 2000, 5000]
+  timer: True
