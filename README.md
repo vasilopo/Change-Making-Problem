@@ -13,12 +13,12 @@ pip3 install pyyaml
 
 ## Logic
 
-This approach is a [BFS link](https://en.wikipedia.org/wiki/Breadth-first_search) (Breadth First Search) on a 
-Tree with all of the available combinations.
+This approach is a [BFS](https://en.wikipedia.org/wiki/Breadth-first_search) (Breadth First Search) on a 
+**Tree** containing all the available combinations.
 
 ## Use
 
-In order to run the program use git clone and then edit the following variables of the
+In order to run the program use the git clone command and then edit the following variables of the
  **conf.yaml** file:
 
 ```python
@@ -37,7 +37,7 @@ execution time of the program
 
 ## Run
 
-You execute the program by typing on a terminal the following command:
+You execute the program by typing the following command on a terminal:
 
 ```cmd
 python3 main.py
