@@ -67,7 +67,7 @@ class CoinProblem:
                     check_item = [current_cash] + list_of_coins
 
                     # If this item is not in the layer we add it
-                    if check_item not in self.next_layer:
+                    if check_item not in next_layer:
 
                         # We add the item into the layer
                         next_layer.append(check_item)
