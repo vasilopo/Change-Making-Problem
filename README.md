@@ -11,14 +11,14 @@ by running the following command:
 pip3 install pyyaml
 ```
 
-## Logic
+## Algorithm Logic
 
 This approach is a [BFS](https://en.wikipedia.org/wiki/Breadth-first_search) (Breadth First Search) on a 
 **Tree** containing all the available combinations.
 
 ## Use
 
-In order to run the program use the git clone command and then edit the following variables of the
+In order to run the program use git clone and then edit the following variables of the
  **conf.yaml** file:
 
 ```python
@@ -37,10 +37,17 @@ execution time of the program
 
 ## Run
 
-You execute the program by typing the following command on a terminal:
+You execute the program by typing the following command:
 
 ```cmd
 python3 main.py
+```
+
+## Tests
+In order to run the tests, navigate to the **tests** folder and then run the following command:
+
+```
+pytest test_CoinClass.py -v
 ```
 
 ## Contributing
