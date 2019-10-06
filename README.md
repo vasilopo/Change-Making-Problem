@@ -43,7 +43,14 @@ You execute the program by typing the following command:
 python3 main.py
 ```
 
-## Tests
+## Tests with Pytest Library
+
+To install the pytest library run the following command:
+
+```
+pip3 install pytest
+```
+
 In order to run the tests, navigate to the **tests** folder and then run the following command:
 
 ```
